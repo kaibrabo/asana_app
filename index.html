@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Asana</title>
+    <!-- local CSS -->
+    <link href="main.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div id="headerContainer">
+        <!-- Header -->
+        <img src="asana_logo.png" id="logo"/>
+    </div>
+
+    <!-- Name -->
+    <h4 id="projectName"></h4>
+
+    <div id="tasksContainer">
+        <!-- List Tasks -->
+        <ul id="tasks">
+        </ul>
+    </div>
+
+
+    <!-- Asana API v0.15.0 -->
+    <script src="https://github.com/Asana/node-asana/releases/download/v0.15.0/asana-min.js"></script>
+    <!-- local JS -->
+    <script src="app.js"></script>
+    <!-- jQuery -->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
